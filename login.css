@@ -1,0 +1,40 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--background-color);
+}
+
+.login-box, .register-box {
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: var(--card-shadow);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-box h2, .register-box h2 {
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+.login-box input, .register-box input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.toggle-form {
+    margin-top: 1rem;
+}
+
+.toggle-form a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+}
